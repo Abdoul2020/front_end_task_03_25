@@ -1,5 +1,5 @@
 import React from "react";
-import  {FilterControls} from "@/components/FilterBar"
+import  {FilterControls} from "@/components/filterBar"
 import { fetchCharacters } from "@/lib/api";
 import { CharactersResponse } from "@/models/character";
 import { HydrationBoundary, QueryClient, dehydrate } from "@tanstack/react-query";
